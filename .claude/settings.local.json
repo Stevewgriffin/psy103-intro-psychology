@@ -28,7 +28,9 @@
       "Bash(bash scripts/generate-audio.sh scripts/narration-scripts.txt)",
       "Bash(ls \"/Users/stevewgriffin/Desktop/Intro to Psych/audio/\"*.mp3)",
       "Bash(ls \"/Users/stevewgriffin/Desktop/Intro to Psych/pptx/slide-audio/\"*.mp3)",
-      "Bash(ls -la \"/Users/stevewgriffin/Desktop/Intro to Psych/audio/\"*.mp3)"
+      "Bash(ls -la \"/Users/stevewgriffin/Desktop/Intro to Psych/audio/\"*.mp3)",
+      "Bash(gh repo:*)",
+      "Bash(brew install:*)"
     ]
   }
 }
