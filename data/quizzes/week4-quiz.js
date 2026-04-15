@@ -1,0 +1,113 @@
+export default {
+  title: 'Week 4 Quiz: Self & Society (Chapters 10-12)',
+  questions: [
+    {
+      question: 'Abraham Maslow proposed which model of human motivation?',
+      options: ['Drive reduction theory', 'Hierarchy of needs', 'Self-determination theory', 'Two-factor theory'],
+      correct: 1,
+      explanation: 'Maslow proposed the hierarchy of needs, a spectrum of needs ranging from basic biological needs (food, water, shelter) to the highest level of self-actualization.',
+    },
+    {
+      question: 'Self-efficacy refers to:',
+      options: ['Physiological needs', 'Self-esteem', 'Self-actualization', 'An individual\'s belief in their capability to complete a task'],
+      correct: 3,
+      explanation: 'Self-efficacy is an individual\'s belief in their own capabilities or capacities to complete a task. Bandura identified it as an important factor in motivation.',
+    },
+    {
+      question: 'Carl mows the yard of his elderly neighbor each week for $20. This type of motivation is:',
+      options: ['Extrinsic', 'Intrinsic', 'Drive-based', 'Biological'],
+      correct: 0,
+      explanation: 'Extrinsic motivation arises from external factors or rewards. Carl is motivated by the payment ($20), which is an external reward, rather than by an internal desire to mow lawns.',
+    },
+    {
+      question: 'According to the James-Lange theory of emotion:',
+      options: ['Emotions and physiological arousal occur simultaneously', 'Cognitive appraisal determines the emotion we experience', 'Emotional experiences arise from physiological arousal', 'Emotions are purely cognitive experiences'],
+      correct: 2,
+      explanation: 'The James-Lange theory asserts that emotions arise from physiological arousal. You feel sad because you cry, not the other way around.',
+    },
+    {
+      question: 'Leptin is a chemical messenger secreted by fat cells that acts as a(n):',
+      options: ['Hunger stimulant', 'Appetite suppressant', 'Energy booster', 'Metabolic accelerator'],
+      correct: 1,
+      explanation: 'Leptin is a satiety hormone secreted by fat cells that signals the brain to reduce appetite. It acts as an appetite suppressant.',
+    },
+    {
+      question: 'Which of the following is NOT one of the seven universal emotions?',
+      options: ['Contempt', 'Disgust', 'Melancholy', 'Anger'],
+      correct: 2,
+      explanation: 'The seven universal emotions are happiness, sadness, fear, disgust, anger, contempt, and surprise. Melancholy is not listed as one of the universally recognized basic emotions.',
+    },
+    {
+      question: 'Freud proposed three components of personality. The id operates on the:',
+      options: ['Reality principle', 'Pleasure principle', 'Morality principle', 'Guilt principle'],
+      correct: 1,
+      explanation: 'According to Freud, the id operates on the pleasure principle, seeking immediate gratification of all desires. The ego operates on the reality principle, and the superego serves as the moral compass.',
+    },
+    {
+      question: 'The ego defense mechanism in which a person returns to a more immature behavioral stage is called:',
+      options: ['Repression', 'Regression', 'Reaction formation', 'Rationalization'],
+      correct: 1,
+      explanation: 'Regression is the ego defense mechanism in which a person confronted with anxiety returns to a more immature behavioral state, such as an adult throwing a tantrum.',
+    },
+    {
+      question: 'The Five Factor Model of personality includes openness, conscientiousness, extroversion, agreeableness, and:',
+      options: ['Narcissism', 'Neuroticism', 'Nihilism', 'Novelty-seeking'],
+      correct: 1,
+      explanation: 'The Five Factor Model (also known as the Big Five or OCEAN) includes openness, conscientiousness, extroversion, agreeableness, and neuroticism. These factors occur along a continuum.',
+    },
+    {
+      question: 'Rotter proposed the concept of locus of control. A person with an external locus of control believes that:',
+      options: ['They control their own outcomes', 'Their outcomes are outside of their control', 'Hard work always leads to success', 'Personality is fixed at birth'],
+      correct: 1,
+      explanation: 'An external locus of control is the belief that outcomes are outside of one\'s control and determined by external forces. An internal locus of control is the belief that we control our own outcomes.',
+    },
+    {
+      question: 'Which of the following is NOT a projective personality test?',
+      options: ['Minnesota Multiphasic Personality Inventory (MMPI)', 'Rorschach Inkblot Test', 'Thematic Apperception Test (TAT)', 'Rotter Incomplete Sentence Blank (RISB)'],
+      correct: 0,
+      explanation: 'The MMPI is a self-report inventory (using true/false questions), not a projective test. The Rorschach, TAT, and RISB are all projective tests that use ambiguous stimuli to reveal unconscious thoughts.',
+    },
+    {
+      question: 'The concept that people choose to move to places compatible with their personalities and needs is called:',
+      options: ['Selective migration', 'Personal oriented personality', 'Socially oriented personality', 'Individualism'],
+      correct: 0,
+      explanation: 'Selective migration is the concept that people choose to move to places that are compatible with their personalities and needs, which may help explain regional personality differences.',
+    },
+    {
+      question: 'As a field, social psychology focuses on ________ in predicting human behavior.',
+      options: ['Personality traits', 'Genetic predispositions', 'Biological forces', 'Situational factors'],
+      correct: 3,
+      explanation: 'Social psychology focuses on the power of the situation to influence individuals\' thoughts, feelings, and behaviors, rather than focusing solely on internal traits.',
+    },
+    {
+      question: 'The tendency to overemphasize internal factors as explanations for behavior and underestimate the power of the situation is called the:',
+      options: ['Self-serving bias', 'Actor-observer bias', 'Fundamental attribution error', 'Just-world hypothesis'],
+      correct: 2,
+      explanation: 'The fundamental attribution error is the tendency to over-rely on dispositional (internal) explanations for behavior and ignore the power of situational influences.',
+    },
+    {
+      question: 'Cognitive dissonance causes discomfort because it disrupts our sense of:',
+      options: ['Dependency', 'Unpredictability', 'Consistency', 'Power'],
+      correct: 2,
+      explanation: 'Cognitive dissonance is the psychological discomfort that arises when our thoughts, feelings, and behaviors are in conflict, disrupting our sense of internal consistency.',
+    },
+    {
+      question: 'In the Asch conformity experiment, participants conformed due to ________ social influence.',
+      options: ['Informational', 'Normative', 'Inspirational', 'Persuasive'],
+      correct: 1,
+      explanation: 'In the Asch experiment, participants conformed due to normative social influence, conforming to group norms in order to fit in and be accepted by the group, even when the group was clearly wrong.',
+    },
+    {
+      question: 'The bystander effect occurs due to:',
+      options: ['Desensitization to violence', 'People not noticing the emergency', 'Diffusion of responsibility', 'Emotional insensitivity'],
+      correct: 2,
+      explanation: 'The bystander effect occurs largely due to diffusion of responsibility, the tendency for no one in a group to help because the responsibility to help is spread throughout the group.',
+    },
+    {
+      question: 'According to the triangular theory of love, the type of love defined by passion and intimacy but no commitment is called:',
+      options: ['Consummate love', 'Empty love', 'Romantic love', 'Companionate love'],
+      correct: 2,
+      explanation: 'According to Sternberg\'s triangular theory, romantic love consists of passion and intimacy without commitment. Consummate love includes all three components.',
+    },
+  ],
+};

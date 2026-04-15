@@ -1,0 +1,113 @@
+export default {
+  title: 'Week 3 Quiz: Cognition & Growth (Chapters 7-9)',
+  questions: [
+    {
+      question: 'Cognitive psychology is the branch of psychology that focuses on the study of:',
+      options: ['Human development', 'Human thinking', 'Human behavior', 'Human society'],
+      correct: 1,
+      explanation: 'Cognitive psychology is dedicated to studying every aspect of how people think, including perception, learning, problem solving, judgment, and memory.',
+    },
+    {
+      question: 'The best example or representation of a concept is called a:',
+      options: ['Schema', 'Stereotype', 'Prototype', 'Script'],
+      correct: 2,
+      explanation: 'A prototype is the best representation of a concept. For example, when you think of "bird," you likely picture something like a robin rather than a penguin.',
+    },
+    {
+      question: 'The smallest units of language that carry meaning are called:',
+      options: ['Lexicons', 'Phonemes', 'Morphemes', 'Syntax'],
+      correct: 2,
+      explanation: 'Morphemes are the smallest units of language that convey some type of meaning. For example, "unhappy" has two morphemes: "un-" (meaning not) and "happy."',
+    },
+    {
+      question: 'A mental shortcut in the form of a general problem-solving framework is called:',
+      options: ['An algorithm', 'A heuristic', 'A mental set', 'Trial and error'],
+      correct: 1,
+      explanation: 'A heuristic is a mental shortcut that saves time when solving a problem. Unlike an algorithm (which guarantees a solution), a heuristic is a general strategy that may or may not work.',
+    },
+    {
+      question: 'Which type of bias involves becoming fixated on a single trait of a problem?',
+      options: ['Anchoring bias', 'Confirmation bias', 'Representative bias', 'Availability bias'],
+      correct: 0,
+      explanation: 'Anchoring bias is a faulty heuristic in which you fixate on a single aspect of a problem to find a solution, ignoring other relevant information.',
+    },
+    {
+      question: 'Sternberg\'s triarchic theory of intelligence includes practical, creative, and:',
+      options: ['Emotional', 'Spatial', 'Analytical', 'Musical'],
+      correct: 2,
+      explanation: 'Sternberg proposed that intelligence has three facets: practical (street smarts), creative (ability to produce novel solutions), and analytical (academic problem solving and computations).',
+    },
+    {
+      question: 'The mean IQ score is:',
+      options: ['70', '130', '85', '100'],
+      correct: 3,
+      explanation: 'By design, the mean score for IQ tests is 100, with a standard deviation of approximately 15 points. This means about 68% of people score between 85 and 115.',
+    },
+    {
+      question: 'The three basic functions of memory are:',
+      options: ['Automatic processing, effortful processing, and storage', 'Encoding, processing, and storage', 'Automatic processing, effortful processing, and retrieval', 'Encoding, storage, and retrieval'],
+      correct: 3,
+      explanation: 'Memory has three essential functions: encoding (getting information in), storage (retaining information), and retrieval (getting information back out).',
+    },
+    {
+      question: 'According to the Atkinson-Shiffrin model, the correct sequence of memory processing is:',
+      options: ['Short-term memory, sensory memory, long-term memory', 'Sensory memory, long-term memory, short-term memory', 'Sensory memory, short-term memory, long-term memory', 'Short-term memory, long-term memory, sensory memory'],
+      correct: 2,
+      explanation: 'The Atkinson-Shiffrin model states that information first enters sensory memory, then moves to short-term memory if attended to, and finally to long-term memory if rehearsed.',
+    },
+    {
+      question: 'An exceptionally clear recollection of an important event is known as a:',
+      options: ['Engram', 'Arousal theory memory', 'Flashbulb memory', 'Eidetic memory'],
+      correct: 2,
+      explanation: 'A flashbulb memory is an exceptionally clear recollection of an important event, such as where you were when you learned of a major historical event. However, research shows these memories are not always accurate.',
+    },
+    {
+      question: 'When old information hinders the recall of newly learned information, this is called:',
+      options: ['Retroactive interference', 'Proactive interference', 'Transience', 'Blocking'],
+      correct: 1,
+      explanation: 'Proactive interference occurs when old information hinders the recall of newly learned information. For example, if you learn a new phone number, your old number may interfere with remembering the new one.',
+    },
+    {
+      question: 'Memory aids that help organize information for encoding are called:',
+      options: ['Mnemonic devices', 'Memory-enhancing strategies', 'Elaborative rehearsal', 'Effortful processing'],
+      correct: 0,
+      explanation: 'Mnemonic devices are memory aids that help organize information for encoding. They include acronyms, acrostics, and visual imagery techniques.',
+    },
+    {
+      question: 'The view that development is a cumulative process of gradually adding skills is called:',
+      options: ['Nature', 'Nurture', 'Continuous development', 'Discontinuous development'],
+      correct: 2,
+      explanation: 'Continuous development is the view that development is a cumulative process, gradually improving on existing skills. This contrasts with discontinuous development, which sees development as occurring in distinct stages.',
+    },
+    {
+      question: 'The idea that even if something is out of sight, it still exists is called:',
+      options: ['Egocentrism', 'Object permanence', 'Conservation', 'Reversibility'],
+      correct: 1,
+      explanation: 'Object permanence is the understanding that objects continue to exist even when they cannot be seen. Piaget believed this develops during the sensorimotor stage.',
+    },
+    {
+      question: 'According to Erikson\'s theory, the main psychosocial task of adolescence is:',
+      options: ['Developing autonomy', 'Feeling competent', 'Forming an identity', 'Forming intimate relationships'],
+      correct: 2,
+      explanation: 'In Erikson\'s theory, adolescence is defined by the crisis of identity vs. role confusion. The primary task is forming a coherent sense of personal identity.',
+    },
+    {
+      question: 'The correct order of prenatal development is:',
+      options: ['Zygote, fetus, embryo', 'Fetus, embryo, zygote', 'Fetus, zygote, embryo', 'Zygote, embryo, fetus'],
+      correct: 3,
+      explanation: 'Prenatal development proceeds from zygote (conception to ~2 weeks), to embryo (~2-8 weeks, when major organs begin forming), to fetus (~9 weeks to birth).',
+    },
+    {
+      question: 'Which of the following is the correct order of stages in Kubler-Ross\'s five-stage model of grief?',
+      options: ['Denial, bargaining, anger, depression, acceptance', 'Anger, depression, bargaining, acceptance, denial', 'Denial, anger, bargaining, depression, acceptance', 'Anger, acceptance, denial, depression, bargaining'],
+      correct: 2,
+      explanation: 'Kubler-Ross proposed five stages of grief in this order: denial, anger, bargaining, depression, and acceptance. Not everyone experiences all stages or in this exact order.',
+    },
+    {
+      question: 'A child who uses the parent as a secure base from which to explore the world demonstrates which attachment style?',
+      options: ['Secure', 'Insecure avoidant', 'Insecure ambivalent-resistant', 'Disorganized'],
+      correct: 0,
+      explanation: 'In secure attachment, the child uses the parent as a secure base from which to explore their surroundings, showing distress when the parent leaves and joy when they return.',
+    },
+  ],
+};

@@ -1,0 +1,113 @@
+export default {
+  title: 'Week 5 Quiz: Applied Psychology (Chapters 13-16)',
+  questions: [
+    {
+      question: 'Industrial-organizational (I-O) psychology applies psychological principles to:',
+      options: ['Clinical therapy settings', 'Educational institutions only', 'The workplace', 'Hospital environments'],
+      correct: 2,
+      explanation: 'I-O psychology is the application of psychological concepts and methods to the workplace, including topics like employee selection, training, motivation, job satisfaction, and organizational leadership.',
+    },
+    {
+      question: 'A job analysis is important because it:',
+      options: ['Determines employee salaries', 'Identifies the knowledge, skills, and abilities needed for a specific job', 'Replaces the need for interviews', 'Measures employee satisfaction'],
+      correct: 1,
+      explanation: 'A job analysis is a systematic process that identifies the tasks, duties, and responsibilities of a job, along with the knowledge, skills, and abilities (KSAs) needed to perform it successfully.',
+    },
+    {
+      question: 'According to Lazarus and Folkman, the process of evaluating a potential stressor to determine whether it is threatening is called:',
+      options: ['Coping', 'Primary appraisal', 'Secondary appraisal', 'Stress response'],
+      correct: 1,
+      explanation: 'Primary appraisal is the initial evaluation of whether a situation is threatening, irrelevant, or benign. Secondary appraisal involves evaluating how to cope with the stressor.',
+    },
+    {
+      question: 'The general adaptation syndrome (GAS) proposed by Hans Selye includes three stages in the following order:',
+      options: ['Resistance, alarm, exhaustion', 'Alarm, resistance, exhaustion', 'Exhaustion, alarm, resistance', 'Alarm, exhaustion, resistance'],
+      correct: 1,
+      explanation: 'Selye\'s general adaptation syndrome has three stages: alarm (initial fight-or-flight response), resistance (the body attempts to adapt to the stressor), and exhaustion (prolonged stress depletes resources).',
+    },
+    {
+      question: 'Which type of coping focuses on changing the emotional reaction to a stressor rather than changing the stressor itself?',
+      options: ['Problem-focused coping', 'Emotion-focused coping', 'Avoidant coping', 'Proactive coping'],
+      correct: 1,
+      explanation: 'Emotion-focused coping involves managing emotional reactions to stress, such as through meditation or seeking social support, rather than directly addressing the source of stress.',
+    },
+    {
+      question: 'Type A behavior pattern is characterized by:',
+      options: ['Relaxed, easygoing temperament', 'Competitiveness, time urgency, and hostility', 'Passive and withdrawn behavior', 'High levels of optimism'],
+      correct: 1,
+      explanation: 'Type A personality pattern is characterized by competitiveness, time urgency, impatience, and hostility. Research has linked the hostility component in particular to increased risk of heart disease.',
+    },
+    {
+      question: 'The Diagnostic and Statistical Manual of Mental Disorders (DSM-5) is published by the:',
+      options: ['World Health Organization', 'American Psychological Association', 'American Psychiatric Association', 'National Institute of Mental Health'],
+      correct: 2,
+      explanation: 'The DSM-5 is published by the American Psychiatric Association. It is the standard classification system used in the United States for diagnosing psychological disorders.',
+    },
+    {
+      question: 'A persistent and excessive fear of a specific object or situation that is disproportionate to the actual danger is called a:',
+      options: ['Generalized anxiety disorder', 'Specific phobia', 'Panic disorder', 'Social anxiety disorder'],
+      correct: 1,
+      explanation: 'A specific phobia involves a persistent, excessive, and unreasonable fear of a particular object or situation, such as heights, spiders, or flying.',
+    },
+    {
+      question: 'Major depressive disorder is characterized by:',
+      options: ['Alternating episodes of mania and depression', 'Persistent sadness, loss of interest, and feelings of worthlessness lasting at least two weeks', 'Chronic but mild depression lasting two or more years', 'Brief episodes of intense sadness'],
+      correct: 1,
+      explanation: 'Major depressive disorder involves depressed mood or loss of interest/pleasure most of the day, nearly every day, for at least two weeks, along with other symptoms like changes in sleep, appetite, energy, and concentration.',
+    },
+    {
+      question: 'Bipolar disorder is distinguished from major depression by the presence of:',
+      options: ['Hallucinations', 'Manic episodes', 'Anxiety', 'Memory loss'],
+      correct: 1,
+      explanation: 'Bipolar disorder is characterized by alternating episodes of depression and mania (periods of abnormally elevated mood, energy, and activity). This cycling between mood states distinguishes it from major depression.',
+    },
+    {
+      question: 'Schizophrenia is characterized by all of the following EXCEPT:',
+      options: ['Hallucinations', 'Delusions', 'Multiple distinct personalities', 'Disorganized thinking'],
+      correct: 2,
+      explanation: 'Schizophrenia involves hallucinations, delusions, and disorganized thinking. Multiple distinct personalities characterize dissociative identity disorder, not schizophrenia. This is a common misconception.',
+    },
+    {
+      question: 'The diathesis-stress model of psychological disorders proposes that:',
+      options: ['All disorders are caused by stress alone', 'Disorders result from a combination of biological predisposition and environmental stress', 'Only genetic factors determine who develops a disorder', 'Stress has no role in psychological disorders'],
+      correct: 1,
+      explanation: 'The diathesis-stress model proposes that psychological disorders develop when an individual has a biological or genetic vulnerability (diathesis) combined with environmental stressors that trigger the disorder.',
+    },
+    {
+      question: 'In psychoanalytic/psychodynamic therapy, the therapist\'s primary goal is to help the client:',
+      options: ['Change maladaptive behaviors through reinforcement', 'Bring unconscious conflicts into conscious awareness', 'Challenge irrational thoughts', 'Achieve self-actualization'],
+      correct: 1,
+      explanation: 'Psychodynamic therapy, rooted in Freud\'s psychoanalytic approach, focuses on bringing unconscious thoughts, feelings, and conflicts into conscious awareness so they can be addressed.',
+    },
+    {
+      question: 'Cognitive-behavioral therapy (CBT) focuses on:',
+      options: ['Unconscious desires and childhood experiences', 'Identifying and changing maladaptive thought patterns and behaviors', 'Unconditional positive regard and empathy', 'Free association and dream analysis'],
+      correct: 1,
+      explanation: 'CBT is based on the idea that our thoughts influence our feelings and behaviors. It focuses on identifying and changing distorted or maladaptive thinking patterns and the behaviors that result from them.',
+    },
+    {
+      question: 'Systematic desensitization, a behavioral therapy technique, is most often used to treat:',
+      options: ['Depression', 'Schizophrenia', 'Phobias', 'Personality disorders'],
+      correct: 2,
+      explanation: 'Systematic desensitization is a behavioral technique used to treat phobias. It involves pairing relaxation techniques with gradually increasing exposure to the feared stimulus.',
+    },
+    {
+      question: 'Which class of medications is most commonly prescribed for the treatment of depression?',
+      options: ['Antipsychotics', 'Benzodiazepines', 'Selective serotonin reuptake inhibitors (SSRIs)', 'Mood stabilizers'],
+      correct: 2,
+      explanation: 'SSRIs (such as fluoxetine/Prozac and sertraline/Zoloft) are the most commonly prescribed medications for depression. They work by blocking the reuptake of serotonin, increasing its availability in the synaptic cleft.',
+    },
+    {
+      question: 'Carl Rogers\'s client-centered therapy emphasizes the importance of providing clients with:',
+      options: ['Structured behavioral homework', 'Interpretation of dreams', 'Unconditional positive regard, empathy, and genuineness', 'Cognitive restructuring techniques'],
+      correct: 2,
+      explanation: 'Rogers believed that providing genuineness, empathy, and unconditional positive regard in the therapeutic environment was essential for client growth and healing.',
+    },
+    {
+      question: 'Electroconvulsive therapy (ECT) is most commonly used today to treat:',
+      options: ['Anxiety disorders', 'Severe, treatment-resistant depression', 'Schizophrenia', 'Personality disorders'],
+      correct: 1,
+      explanation: 'ECT is primarily used for severe, treatment-resistant depression when medications and psychotherapy have not been effective. Modern ECT is performed under anesthesia and is considered safe.',
+    },
+  ],
+};

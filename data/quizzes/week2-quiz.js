@@ -1,0 +1,113 @@
+export default {
+  title: 'Week 2 Quiz: Mind & Senses (Chapters 4-6)',
+  questions: [
+    {
+      question: 'The body\'s biological clock is located in the:',
+      options: ['Hippocampus', 'Thalamus', 'Hypothalamus', 'Pituitary gland'],
+      correct: 2,
+      explanation: 'The suprachiasmatic nucleus (SCN), located in the hypothalamus, is where the body\'s biological clock resides. It regulates circadian rhythms based on light exposure.',
+    },
+    {
+      question: 'A chronic deficiency in sleep results in a condition known as:',
+      options: ['Jet lag', 'Rotating shift disorder', 'Circadian rhythm disruption', 'Sleep debt'],
+      correct: 3,
+      explanation: 'Sleep debt occurs when there is a chronic deficiency in sleep. The accumulation of lost sleep can lead to adverse psychological and physiological consequences.',
+    },
+    {
+      question: 'Sleep spindles and K-complexes are most often associated with which stage of sleep?',
+      options: ['Stage 1', 'Stage 2', 'Stage 3 and stage 4', 'REM'],
+      correct: 1,
+      explanation: 'Sleep spindles and K-complexes are characteristic brain wave patterns of stage 2 sleep. Sleep spindles are rapid bursts of high-frequency activity that may be important for learning and memory.',
+    },
+    {
+      question: 'According to Freud, the hidden meaning of a dream is called the:',
+      options: ['Latent content', 'Manifest content', 'Collective unconscious', 'Dream narrative'],
+      correct: 0,
+      explanation: 'Freud distinguished between the manifest content (the actual storyline of the dream) and the latent content (the hidden, true meaning of the dream).',
+    },
+    {
+      question: 'Loss of muscle tone or control that is often associated with narcolepsy is called:',
+      options: ['RBD', 'CPAP', 'Cataplexy', 'Insomnia'],
+      correct: 2,
+      explanation: 'Cataplexy is the sudden loss of muscle tone or muscle weakness, and in some cases complete paralysis. It is often associated with narcolepsy.',
+    },
+    {
+      question: 'Tolerance occurs when a drug user requires:',
+      options: ['Medical treatment for withdrawal', 'More and more of a drug to experience the same effects', 'Psychological counseling', 'A different drug to achieve the same high'],
+      correct: 1,
+      explanation: 'Tolerance is the state of requiring increasing quantities of a drug to gain the desired effect. It develops as the body adapts to the presence of the drug.',
+    },
+    {
+      question: 'Cocaine blocks the reuptake of which neurotransmitter?',
+      options: ['GABA', 'Glutamate', 'Acetylcholine', 'Dopamine'],
+      correct: 3,
+      explanation: 'Cocaine blocks the reuptake of dopamine, causing it to accumulate in the synaptic cleft. This leads to the euphoric feelings associated with cocaine use.',
+    },
+    {
+      question: 'The minimum amount of stimulus energy required for detection 50% of the time is called the:',
+      options: ['Absolute threshold', 'Difference threshold', 'Just noticeable difference', 'Signal detection level'],
+      correct: 0,
+      explanation: 'The absolute threshold is the minimum amount of stimulus energy that must be present for the stimulus to be detected 50% of the time.',
+    },
+    {
+      question: 'Decreased sensitivity to an unchanging stimulus is known as:',
+      options: ['Transduction', 'Difference threshold', 'Sensory adaptation', 'Inattentional blindness'],
+      correct: 2,
+      explanation: 'Sensory adaptation occurs when we stop perceiving stimuli that remain relatively constant over prolonged periods, such as no longer noticing the feel of clothing on our skin.',
+    },
+    {
+      question: 'The conversion of sensory stimulus energy into neural impulses is called:',
+      options: ['Sensory adaptation', 'Inattentional blindness', 'Difference threshold', 'Transduction'],
+      correct: 3,
+      explanation: 'Transduction is the conversion of sensory stimulus energy into action potentials (neural impulses). This process occurs at the sensory receptors.',
+    },
+    {
+      question: 'The small indentation of the retina that contains cones and is responsible for sharp central vision is the:',
+      options: ['Optic chiasm', 'Optic nerve', 'Fovea', 'Iris'],
+      correct: 2,
+      explanation: 'The fovea is a small indentation in the retina that contains a high concentration of cones. It provides the highest visual acuity, used for tasks like reading.',
+    },
+    {
+      question: 'According to the Gestalt principle of proximity:',
+      options: ['Similar objects are grouped together', 'We perceive smoothly flowing lines rather than jagged ones', 'Objects close to one another tend to be grouped together', 'We perceive complete objects rather than parts'],
+      correct: 2,
+      explanation: 'The Gestalt principle of proximity states that things that are close to one another tend to be grouped together in our perception.',
+    },
+    {
+      question: 'In classical conditioning, the stimulus that naturally triggers a reflexive response is the:',
+      options: ['Conditioned stimulus', 'Neutral stimulus', 'Unconditioned stimulus', 'Conditioned response'],
+      correct: 2,
+      explanation: 'The unconditioned stimulus (UCS) is a stimulus that elicits a reflexive (unconditioned) response naturally, without any learning required, such as food causing salivation.',
+    },
+    {
+      question: 'In Watson and Rayner\'s experiments, Little Albert was conditioned to fear a white rat and then began to fear other furry objects. This demonstrates:',
+      options: ['Higher order conditioning', 'Acquisition', 'Stimulus discrimination', 'Stimulus generalization'],
+      correct: 3,
+      explanation: 'Stimulus generalization occurs when the conditioned response is demonstrated to stimuli that are similar to the conditioned stimulus. Albert generalized his fear from the rat to other furry objects.',
+    },
+    {
+      question: 'Taking away a pleasant stimulus to decrease a behavior is called:',
+      options: ['Positive reinforcement', 'Negative reinforcement', 'Positive punishment', 'Negative punishment'],
+      correct: 3,
+      explanation: 'Negative punishment involves removing a pleasant stimulus to decrease a behavior (e.g., taking away screen time when a child misbehaves). "Negative" means removing, and "punishment" means decreasing behavior.',
+    },
+    {
+      question: 'Slot machines reward gamblers according to which reinforcement schedule?',
+      options: ['Fixed ratio', 'Variable ratio', 'Fixed interval', 'Variable interval'],
+      correct: 1,
+      explanation: 'Slot machines use a variable ratio reinforcement schedule, where the number of responses needed before a reward differs unpredictably. This schedule produces the highest, most consistent rate of responding.',
+    },
+    {
+      question: 'In Bandura\'s Bobo doll study, children who watched the aggressive model later:',
+      options: ['Ignored the doll', 'Played nicely with the doll', 'Played with other toys', 'Kicked and threw the doll'],
+      correct: 3,
+      explanation: 'Children who observed the aggressive model imitated the aggressive behavior and kicked and threw the Bobo doll. This demonstrated the power of observational learning.',
+    },
+    {
+      question: 'The correct order of steps in the observational learning (modeling) process is:',
+      options: ['Attention, retention, reproduction, motivation', 'Motivation, attention, reproduction, retention', 'Attention, motivation, retention, reproduction', 'Motivation, attention, retention, reproduction'],
+      correct: 0,
+      explanation: 'According to Bandura, observational learning requires four steps in order: attention (noticing the behavior), retention (remembering it), reproduction (being able to replicate it), and motivation (having a reason to do it).',
+    },
+  ],
+};

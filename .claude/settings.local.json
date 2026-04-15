@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /Users/stevewgriffin/Desktop/accounting301/css/*.css /Users/stevewgriffin/Desktop/accounting301/js/components/*.js)",
+      "WebFetch(domain:openstax.org)",
+      "Bash(cp ~/Desktop/accounting301/js/router.js \"/Users/stevewgriffin/Desktop/Intro to Psych/js/\")",
+      "Bash(cp ~/Desktop/accounting301/js/icons.js \"/Users/stevewgriffin/Desktop/Intro to Psych/js/\")",
+      "Bash(cp ~/Desktop/accounting301/js/app.js \"/Users/stevewgriffin/Desktop/Intro to Psych/js/\")",
+      "Bash(cp ~/Desktop/accounting301/js/store.js \"/Users/stevewgriffin/Desktop/Intro to Psych/js/\")",
+      "Bash(cp ~/Desktop/accounting301/css/*.css \"/Users/stevewgriffin/Desktop/Intro to Psych/css/\")",
+      "Bash(cp ~/Desktop/accounting301/index.html \"/Users/stevewgriffin/Desktop/Intro to Psych/\")",
+      "Bash(cp ~/Desktop/accounting301/netlify/functions/*.js \"/Users/stevewgriffin/Desktop/Intro to Psych/netlify/functions/\")",
+      "Bash(cp ~/Desktop/accounting301/\"griffin headshot.png\" \"/Users/stevewgriffin/Desktop/Intro to Psych/\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git -C ~/Desktop/accounting301 log --oneline)",
+      "Bash(git -C ~/Desktop/accounting301 show HEAD:COURSE-TEMPLATE.md)",
+      "Bash(wc -c ~/Desktop/accounting301/audio/*.mp3)",
+      "Bash(npx netlify:*)",
+      "Bash(netlify env:list)",
+      "Bash(netlify status:*)",
+      "Bash(curl -s https://api.elevenlabs.io/v1/voices -H 'xi-api-key: sk_6ed96e42f76f6b307eb9d5cf5b225737b6e924a79650d2c6')",
+      "Bash(python3 -c \" import json, sys data = json.load\\(sys.stdin\\) for v in data.get\\('voices', []\\): print\\(f\\\\\"{v['voice_id']} | {v['name']} | {v.get\\('labels', {}\\)}\\\\\"\\)\")",
+      "Bash(python3 -c ':*)",
+      "Bash(python3 -c \"import json,sys; print\\(json.dumps\\(json.load\\(sys.stdin\\), indent=2\\)[:500]\\)\")",
+      "Bash(export ELEVENLABS_API_KEY=\"sk_6ed96e42f76f6b307eb9d5cf5b225737b6e924a79650d2c6\")",
+      "Bash(export ELEVENLABS_VOICE_ID=\"s1E9Ek2DSUzQlY5AXXQy\")",
+      "Bash(mkdir -p audio pptx/slide-audio)",
+      "Bash(bash scripts/generate-audio.sh scripts/narration-scripts.txt)",
+      "Bash(ls \"/Users/stevewgriffin/Desktop/Intro to Psych/audio/\"*.mp3)",
+      "Bash(ls \"/Users/stevewgriffin/Desktop/Intro to Psych/pptx/slide-audio/\"*.mp3)",
+      "Bash(ls -la \"/Users/stevewgriffin/Desktop/Intro to Psych/audio/\"*.mp3)"
+    ]
+  }
+}

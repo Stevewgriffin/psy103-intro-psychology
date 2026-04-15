@@ -1,0 +1,113 @@
+export default {
+  title: 'Week 1 Quiz: Foundations (Chapters 1-3)',
+  questions: [
+    {
+      question: 'Psychology is best defined as the scientific study of:',
+      options: ['The brain and nervous system', 'Mind and behavior', 'Mental illness and treatment', 'Human social interactions'],
+      correct: 1,
+      explanation: 'Psychology is defined as the scientific study of mind and behavior. While it includes topics like the brain, mental illness, and social interactions, its scope is broader than any single one of those areas.',
+    },
+    {
+      question: 'Which early school of psychology used introspection to break conscious experience into its component parts?',
+      options: ['Functionalism', 'Behaviorism', 'Structuralism', 'Psychoanalysis'],
+      correct: 2,
+      explanation: 'Structuralism, founded by Wilhelm Wundt, aimed to understand the conscious experience by breaking it into component parts through the method of introspection.',
+    },
+    {
+      question: 'William James was a proponent of which perspective in psychology?',
+      options: ['Structuralism', 'Functionalism', 'Behaviorism', 'Humanism'],
+      correct: 1,
+      explanation: 'William James was the first American psychologist and a proponent of functionalism, which focused on how mental activities help an organism adapt to its environment.',
+    },
+    {
+      question: 'The humanistic perspective in psychology emphasizes:',
+      options: ['Unconscious drives and childhood experiences', 'Observable behavior and conditioning', 'The potential for good that is innate to all humans', 'The biological bases of behavior'],
+      correct: 2,
+      explanation: 'Humanism focuses on the potential for good that is innate to all humans. Both Maslow and Rogers were influential in shaping humanistic psychology.',
+    },
+    {
+      question: 'In Milgram\'s controversial study on obedience, approximately what fraction of participants were willing to administer what appeared to be lethal electrical shocks?',
+      options: ['One third', 'Two thirds', 'Three fourths', 'One half'],
+      correct: 1,
+      explanation: 'In Milgram\'s obedience study, nearly two-thirds (2/3) of participants were willing to administer what appeared to be lethal shocks when instructed by an authority figure.',
+    },
+    {
+      question: 'Scientific hypotheses must be testable and:',
+      options: ['Observable', 'Original', 'Provable', 'Falsifiable'],
+      correct: 3,
+      explanation: 'Scientific hypotheses must be both testable and falsifiable. This means there must be a way to demonstrate that the hypothesis is wrong if it is indeed wrong.',
+    },
+    {
+      question: 'A researcher studies the same group of individuals over a 20-year period. This is an example of:',
+      options: ['Archival research', 'Cross-sectional research', 'Longitudinal research', 'Naturalistic observation'],
+      correct: 2,
+      explanation: 'Longitudinal research involves studying the same group of individuals repeatedly over an extended period of time, allowing researchers to track changes and development.',
+    },
+    {
+      question: 'Which correlation coefficient indicates the strongest relationship between two variables?',
+      options: ['+.25', '-.90', '+.80', '-.50'],
+      correct: 1,
+      explanation: 'The strength of a correlation is determined by the absolute value of the coefficient. At -.90, the absolute value is .90, which is the highest among the options, indicating the strongest relationship (though negative in direction).',
+    },
+    {
+      question: 'The independent variable in an experiment is:',
+      options: ['The variable that is measured by the researcher', 'The variable that is controlled or manipulated by the experimenter', 'The placebo given to the control group', 'The statistical analysis used on the data'],
+      correct: 1,
+      explanation: 'The independent variable is controlled by the experimenter, while the dependent variable represents the information collected and statistically analyzed by the experimenter.',
+    },
+    {
+      question: 'Before an experiment involving human participants can be conducted, it must be approved by a(n):',
+      options: ['IACUC', 'Peer review board', 'IRB (Institutional Review Board)', 'Ethics committee of the APA'],
+      correct: 2,
+      explanation: 'Any experiment involving human participants must be approved by an Institutional Review Board (IRB), which is a committee of administrators, scientists, and community members that reviews research proposals.',
+    },
+    {
+      question: 'A sudden, permanent change in a sequence of DNA is called a:',
+      options: ['Allele', 'Chromosome', 'Genotype', 'Mutation'],
+      correct: 3,
+      explanation: 'A mutation is a sudden, permanent change in a gene. Mutations provide the genetic diversity required for natural selection to occur.',
+    },
+    {
+      question: 'Genotype refers to a person\'s genetic makeup, while ________ refers to a person\'s physical characteristics.',
+      options: ['Allele', 'Phenotype', 'DNA', 'Chromosome'],
+      correct: 1,
+      explanation: 'Genotype refers to an individual\'s genetic makeup, while phenotype refers to the individual\'s inheritable physical characteristics that are expressed.',
+    },
+    {
+      question: 'Which part of the neuron receives incoming signals from other neurons?',
+      options: ['Soma', 'Terminal buttons', 'Myelin sheath', 'Dendrites'],
+      correct: 3,
+      explanation: 'Dendrites are the branch-like extensions of the soma that receive incoming signals from other neurons. They contain receptors for neurotransmitters.',
+    },
+    {
+      question: 'The central nervous system is comprised of:',
+      options: ['Sympathetic and parasympathetic nervous systems', 'Organs and glands', 'Somatic and autonomic nervous systems', 'Brain and spinal cord'],
+      correct: 3,
+      explanation: 'The central nervous system (CNS) consists of the brain and spinal cord. The peripheral nervous system (PNS) connects the CNS to the rest of the body.',
+    },
+    {
+      question: 'The thalamus serves as a sensory relay station for all senses except:',
+      options: ['Vision', 'Hearing', 'Smell', 'Touch'],
+      correct: 2,
+      explanation: 'The thalamus is the sensory relay station where all sensory information, except for smell, goes before being sent to other areas of the brain for further processing.',
+    },
+    {
+      question: 'Activation of the parasympathetic nervous system is associated with:',
+      options: ['Fight or flight response', 'Increased heart rate and pupil dilation', 'Normal functioning under relaxed conditions', 'Stress and emergency responses'],
+      correct: 2,
+      explanation: 'The parasympathetic nervous system is associated with routine, day-to-day operations of the body and normal functioning under relaxed conditions, in contrast to the sympathetic system which handles fight-or-flight responses.',
+    },
+    {
+      question: 'Which brain imaging technique uses magnetic fields to create pictures of tissue?',
+      options: ['EEG', 'MRI', 'PET scan', 'CT scan'],
+      correct: 1,
+      explanation: 'Magnetic resonance imaging (MRI) uses magnetic fields to produce a picture of the tissue being imaged. It provides detailed images of brain structure.',
+    },
+    {
+      question: 'The pituitary gland is often called the "master gland" because it:',
+      options: ['Is the largest gland in the endocrine system', 'Controls the secretions of all other endocrine glands', 'Produces the most hormones', 'Is located in the center of the brain'],
+      correct: 1,
+      explanation: 'The pituitary gland serves as the master gland because it controls the secretions of all other glands in the endocrine system, directed by the hypothalamus.',
+    },
+  ],
+};
