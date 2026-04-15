@@ -44,19 +44,31 @@ export async function renderFormationReading(params) {
           ${reading.description ? `<p class="formation-week-desc">${reading.description}</p>` : ''}
         </div>
 
-        <!-- Full Book Link -->
-        <a href="Moral-Gravity.pdf" target="_blank" class="openstax-read-btn">
-          <div class="openstax-read-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-          </div>
-          <div class="openstax-read-info">
-            <div class="openstax-read-title">Read Full Book — Moral Gravity</div>
-            <div class="openstax-read-desc">Complete book by Steve W. Griffin &middot; Opens in new tab</div>
-          </div>
-          <div class="openstax-read-arrow">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </div>
-        </a>
+        <!-- Full Book Link — opens to this week's starting page -->
+        ${(() => {
+          const pdfPages = { 1: 5, 2: 75, 3: 139, 4: 195, 5: 275 };
+          const weekChapters = {
+            1: 'Preface & Chapters 1–7',
+            2: 'Chapters 8–13',
+            3: 'Chapters 14–18',
+            4: 'Chapters 19–25',
+            5: 'Chapters 26–29 & Epilogue'
+          };
+          const page = pdfPages[weekId] || 1;
+          const chapters = weekChapters[weekId] || '';
+          return `<a href="Moral-Gravity.pdf#page=${page}" target="_blank" class="openstax-read-btn">
+            <div class="openstax-read-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
+            <div class="openstax-read-info">
+              <div class="openstax-read-title">Read in Full Book — ${chapters}</div>
+              <div class="openstax-read-desc">Moral Gravity by Steve W. Griffin &middot; Opens to this week&rsquo;s reading</div>
+            </div>
+            <div class="openstax-read-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </a>`;
+        })()}
 
         <div class="formation-content">
           ${sectionsHtml}
